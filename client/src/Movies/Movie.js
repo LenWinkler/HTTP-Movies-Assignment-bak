@@ -45,7 +45,8 @@ export default class Movie extends React.Component {
           Save
         </div>
         <div>
-          <Link to={`/update-movie/${this.state.movie.id}`}>Update Movie</Link>
+          <Link to={`/update-movie/${this.state.movie.id}`} id={this.state.movie.id}>Update Movie
+          </Link>
         </div>
       </div>
     );
